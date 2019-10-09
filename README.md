@@ -3,7 +3,7 @@
 The Strategy Pattern is **a behavioral pattern**.
 ### Description
 The strategy design pattern gives you the ability to *define a family of algorithms, put each of them in a separate class, and make their objects interchangeable*.
-###Problem
+### Problem
 ```java
 class ShoppingCart {
     
@@ -18,7 +18,7 @@ class ShoppingCart {
    // ...
 }
 ```
-###Solution
+### Solution
 ```java
 interface PaymentStrategy {
     void pay(double amount);
