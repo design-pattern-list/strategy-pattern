@@ -38,7 +38,7 @@ class ShoppingCart {
     // BancontactPaymentStrategy
     // ...
 
-    public void pay(PayPalPaymentStrategy strategy) {
+    public void pay(PaymentStrategy strategy) {
         strategy.pay(1234);
     }
 }
